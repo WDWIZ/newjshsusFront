@@ -1,0 +1,40 @@
+#view{
+    width: 100%;
+    height: 100%;
+
+    .wrap{
+        width: 80%;
+        height: calc(100% - 100px);
+        position: absolute;
+        bottom: 0; left: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;
+        overflow-x: hidden; overflow-y: auto;
+        
+        .tamhwal{
+            width: 400px;
+            height: 400px;
+            background: #acf;
+            margin-top: 50px;
+            margin-left: 20px;
+            overflow-y: scroll;
+
+            table{
+                tr{
+                    font-size: 20px;
+                    th{
+                        width: 100px;
+                        background: #fac;
+                    }
+                    td{
+                        width: 300px;
+                        background: #afc;
+                    }
+                }
+            }
+        }
+    }
+}
